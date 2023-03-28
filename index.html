@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodomaa</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body class="bg-[#f8f9fa]">
+    <!-- HERO SECTION -->
+    <section
+      class="w-[100] mx-4 ml-0 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <!-- Nav of HERO SECTION -->
+      <nav class="flex items-center justify-between">
+        <div class="mx-8 md:mx-0 lg:mx-0 left flex items-center">
+          <img
+            class="w-[85px] md:w-[100px] lg:w-[150px]"
+            src="images/foodomaa.png"
+            alt="logo"
+          />
+          <ul class="hidden lg:flex lg:items-center lg:ml-8">
+            <li class="ml-8 text-[#8e969e] hover:text-[#fc6337]">
+              <a href="#">Support</a>
+            </li>
+            <li class="ml-8 text-[#8e969e] hover:text-[#fc6337]">
+              <a href="#">Affiliate</a>
+            </li>
+            <li class="ml-8 text-[#8e969e] hover:text-[#fc6337]">
+              <a href="#">Docs</a>
+            </li>
+            <li class="ml-8 text-[#8e969e] hover:text-[#fc6337]">
+              <a href="#">Forums</a>
+            </li>
+            <li class="ml-8 text-[#8e969e] hover:text-[#fc6337]">
+              <a href="#">Buy Android App</a>
+            </li>
+          </ul>
+        </div>
+        <button
+          class="hidden lg:block border border-solid border-[#fc6337] px-4 py-2 rounded text-[#fc6337] ease-in duration-300 hover:bg-[#fc6337] hover:text-white"
+        >
+          Purchase Now
+        </button>
+        <i
+          class="fa-solid fa-bars block text-2xl text-[#8e969e] mr-8 mt-1 md:mr-0 md:text-3xl lg:hidden"
+        ></i>
+      </nav>
+
+      <!-- Body of HERO SECTION -->
+      <div class="flex w-full flex-col md:flex-row md:justify-between">
+        <div
+          class="flex flex-col items-center justify-center md:justify-start md:items-start"
+        >
+          <h1
+            class="text-[#152c5b] text-5xl font-bold text-center mt-[5rem] md:text-left md:mt-[9rem] lg:text-left lg:mt-[9rem] lg:ml-0"
+          >
+            Multi-Vendor <br />Business <br />Done Right!
+          </h1>
+          <p
+            class="w-[95%] text-center mt-8 text-[#8e969e] sm:w-[80%] md:ml-0 md:text-left md:w-[45%] lg:ml-0 lg:text-left lg:w-[70%]"
+          >
+            All your customers use their phone to place an order. 10x your
+            conversions with a Powerful UX focused web-app.
+          </p>
+          <button
+            class="mt-8 bg-[#fc5525] hover:bg-[#fc3c0d] px-8 py-3 text-extrabold text-white rounded w-[220px] sm:w-[250px] md:ml-0 lg:ml-0"
+          >
+            View Live Demo <i class="fa-solid fa-arrow-right ml-2"></i>
+          </button>
+          <!-- bg-[#f8f0ee] -->
+          <div
+            class="flex items-center mt-8 ml-4 rounded bg-[#f8f0ee] w-[95%] md:w-[80%] md:ml-0 md:justify-around lg:w-[70%] h-[120px]"
+          >
+            <div class="ml-4 md:ml-2 lg:ml-2">
+              <p>Featured On</p>
+              <p class="mt-2">CodeCanyon</p>
+            </div>
+            <div class="ml-16 sm:ml-32 md:ml-4 lg:ml-8">
+              <div class="flex">
+                <i class="fa-solid fa-star text-[#fcbc3d]"></i>
+                <i class="fa-solid fa-star text-[#fcbc3d]"></i>
+                <i class="fa-solid fa-star text-[#fcbc3d]"></i>
+                <i class="fa-solid fa-star text-[#fcbc3d]"></i>
+                <i class="fa-solid fa-star text-[#fcbc3d]"></i>
+              </div>
+              <p class="mt-2">#1 Featured Product on</p>
+              <p class="mt-2">CodeCanyon</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="w-full rounded flex justify-center items-center mt-16 ml-2 sm:w-[60%] sm:ml-32 md:w-[60%] md:ml-2 md:mr-8 md:mt-0 lg:w-[60%] lg:mr-16 lg:mt-20 xl:w-[30%] xl:mr-16 xl:mt-20">
+            <img class="w-[80%] shadow-2xl rounded" src="images/home-ss.png" alt="home image">
+        </div> -->
+        <div class="mt-16 ml-4 flex items-center justify-center">
+          <img
+            class="shadow-2xl md:mb-16 lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/home-ss.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSING US - SECTION -->
+    <section
+      class="w-[100] mx-4 ml-4 sm:mr-8 sm:ml-8 md:ml-8 md:mr-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 flex flex-col lg:flex-row lg:justify-between xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-50"
+    >
+      <!-- Left side of the Section -->
+      <div class="flex flex-col flex-1 md:mt-16 2xl:mt-0">
+        <h1
+          class="text-[#152c5b] text-5xl font-bold text-center mt-[10rem] md:text-left md:mt-[2rem] lg:text-left lg:mt-[9rem] lg:ml-0"
+        >
+          Why choose us
+        </h1>
+        <p
+          class="text-[#1f3360] text-2xl text-left ml-2 mt-4 w-auto md:w-[40%] lg:ml-0 lg:w-[100%]"
+        >
+          Foodomaa® is a premium application handcrafted for small to medium
+          size businesses.
+        </p>
+        <div class="mt-12 ml-4 lg:ml-0">
+          <div class="flex items-center gap-2 sm:mt-4">
+            <i
+              class="fa-sharp fa-solid fa-square-check text-[#fe5222] text-2xl"
+            ></i>
+            <p class="text-[#8e969e]">Perfect for startups</p>
+          </div>
+          <div class="flex items-center gap-2 sm:mt-4">
+            <i
+              class="fa-sharp fa-solid fa-square-check text-[#fe5222] text-2xl"
+            ></i>
+            <p class="text-[#8e969e]">
+              Built with customization and ease-of-use at its core
+            </p>
+          </div>
+          <div class="flex items-center gap-2 sm:mt-4">
+            <i
+              class="fa-sharp fa-solid fa-square-check text-[#fe5222] text-2xl"
+            ></i>
+            <p class="text-[#8e969e]">
+              Quality design and thoughtfully crafted code
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right side of the Section -->
+      <div class="mt-8 sm:mt-32 md:mt-32 flex">
+        <div class="ml-4 flex gap-8 flex-col sm:ml-8">
+          <div
+            class="bg-[#f25767] shadow-2xl gap-2 flex items-center justify-center flex-col h-[220px] w-[160px] text-center sm:w-[250px] sm:h-[180px] md:w-[320px] md:h-[180px] lg:h-[220px] lg:w-[220px] rounded-md"
+          >
+            <h1 class="text-5xl font-semibold text-white">1.5M</h1>
+            <p class="font-bold text-white">Foodomaa® Lovers</p>
+          </div>
+          <div
+            class="bg-[#ffffff] shadow-2xl gap-2 flex items-center justify-center flex-col h-[180px] w-[160px] text-center sm:w-[250px] sm:h-[180px] md:w-[320px] md:h-[180px] lg:h-[220px] lg:w-[220px] rounded-md"
+          >
+            <h1 class="text-5xl font-semibold text-[#171347]">13k</h1>
+            <p class="font-bold text-[#171347]">Business Users</p>
+          </div>
+        </div>
+        <div class="ml-4 flex gap-8 flex-col md:ml-8 lg:ml-8 lg:mt-16">
+          <div
+            class="bg-[#171347] shadow-2xl gap-2 flex items-center justify-center flex-col h-[220px] w-[160px] text-center sm:w-[250px] sm:h-[180px] md:w-[320px] md:h-[180px] lg:h-[220px] lg:w-[220px] rounded-md"
+          >
+            <h1 class="text-5xl font-semibold text-white">100%</h1>
+            <p class="font-bold text-white">Satisfactory Results</p>
+          </div>
+          <div
+            class="bg-[#ffbe3d] shadow-2xl gap-2 flex items-center justify-center flex-col h-[240px] w-[160px] text-center sm:w-[250px] sm:h-[180px] md:w-[320px] md:h-[180px] lg:h-[220px] lg:w-[220px] rounded-md"
+          >
+            <h1 class="text-5xl font-semibold text-white">5stars</h1>
+            <p class="font-bold text-white">Satisfactory Results</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: => Delivery Location Selection -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <h1 class="text-4xl font-bold text-[#152c5b] mt-[180px] text-center">
+        Your online business, now Supercharged
+      </h1>
+
+      <div class="flex mt-8 flex-col md:flex-row">
+        <!-- Left side of the section -->
+        <div class="md:mt-12 lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">
+            Delivery Location Selection
+          </h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[50%]">
+            Powered with Google Maps API and Google Location API, Foodomaa™
+            provides an intuitive functionality for the delivery location
+            selection.
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Autofill location with Google APIs</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Manual fill addresses (Building, Flat)</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Add tags for address (Work, Home)</p>
+          </div>
+        </div>
+
+        <!-- Right Side of the Section -->
+        <div class="mt-16 ml-4 flex items-center justify-center">
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/location-ss.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Stores Listing -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <div
+        class="flex mt-8 flex-col-reverse md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Left side of the Section -->
+        <div
+          class="mt-16 ml-4 flex items-center justify-center md:ml-0 md:items-start md:justify-start"
+        >
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/store-ss.png"
+            alt=""
+          />
+        </div>
+
+        <!-- Right side of the Section -->
+        <div class="md:mt-12 flex flex-col flex-[.5] md:items-start lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">
+            Stores Listing
+          </h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[80%]">
+            Restaurants and Stores listed based on order and position set by
+            you.
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Promotional Sliders</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Delivery and Self-Pickup Options</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Listing stores based on user's area</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: => Items Listing -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <div
+        class="flex mt-8 flex-col md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Left side of the section -->
+        <div class="md:mt-12 lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">
+            Items Listing
+          </h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[60%]">
+            Sophisticated yet easy to use User Interface for listing the
+            restaurant and stores items.
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Advanced Search for Items</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Menu Categorization</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Recommended Items Slider</p>
+          </div>
+        </div>
+
+        <!-- Right Side of the Section -->
+        <div class="mt-16 ml-4 flex items-center justify-center">
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/items-ss.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Cart Page -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <div
+        class="flex mt-8 flex-col-reverse md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Left side of the Section -->
+        <div
+          class="mt-16 ml-4 flex items-center justify-center md:ml-0 md:items-start md:justify-start"
+        >
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/cart-ss.png"
+            alt=""
+          />
+        </div>
+
+        <!-- Right side of the Section -->
+        <div class="md:mt-12 flex flex-col md:items-start flex-[.5] lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">Cart Page</h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[80%]">
+            Elegant and powerful cart page with "on-the-fly" calculations of
+            taxes, coupons and bill details.
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Add/Remove Items</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Detailed bill details</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Coupon, Order Comment or Suggestion and Tip System</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: => Checkout Page -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <div
+        class="flex mt-8 flex-col md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Left side of the section -->
+        <div class="md:mt-12 lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">
+            Checkout Page
+          </h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[60%]">
+            10+ Payment Gateway integrations with Cash On Delivery option all
+            configurable by the business.
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Multi-Payment Gateways</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Pay Fully/Partially with Wallet</p>
+          </div>
+        </div>
+
+        <!-- Right Side of the Section -->
+        <div class="mt-16 ml-4 flex items-center justify-center">
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/checkout-ss.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Live Order Tracking -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <div
+        class="flex mt-8 flex-col-reverse md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Left side of the Section -->
+        <div
+          class="mt-16 ml-4 flex items-center justify-center md:ml-0 md:items-start md:justify-start"
+        >
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/live-order-tracking.png"
+            alt=""
+          />
+        </div>
+
+        <!-- Right side of the Section -->
+        <div class="md:mt-12 flex flex-col md:items-start flex-[.5] lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">
+            Live Order Tracking
+          </h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[80%]">
+            Intuitive experience for order status tracking with a real-time*
+            delivery guy location.
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Track order status</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Track delivery live location</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Auto/manual refresh of order status</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: => Login & Registration -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <div
+        class="flex mt-8 flex-col md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Left side of the section -->
+        <div class="md:mt-12 lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">
+            Login & Registration
+          </h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[60%]">
+            One click social login with Facebook & Google.
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Login, Register, Password Reset Page</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Social Login with Google & Facebook</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Mobile OTP verification on Registration</p>
+          </div>
+        </div>
+
+        <!-- Right Side of the Section -->
+        <div class="mt-16 ml-4 flex items-center justify-center">
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/login-ss.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Notification & Order -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <div
+        class="flex mt-8 flex-col-reverse md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Left side of the Section -->
+        <div
+          class="mt-16 ml-4 flex items-center justify-center md:ml-0 md:items-start md:justify-start"
+        >
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/notification.png"
+            alt=""
+          />
+        </div>
+
+        <!-- Right side of the Section -->
+        <div class="md:mt-12 flex flex-col md:items-start flex-[.5] lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">
+            Notification And Alerts
+          </h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[80%]">
+            Send notifications bulk or to specific customer
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Wallet deposit and withdraw alerts</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Automatic order status push notifications and alerts</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Custom alters from Admin to Customer with Images and Link</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: => Explore Restaurants and Stores -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <div
+        class="flex mt-8 flex-col md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Left side of the section -->
+        <div class="md:mt-12 lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">
+            Explore Restaurants and Stores
+          </h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[60%]">
+            Powerful search for restaurants and items all within a single page.
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Search with item, store name</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Get results for items, stores</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Jump to Single Item Page on item selection</p>
+          </div>
+        </div>
+
+        <!-- Right Side of the Section -->
+        <div class="mt-16 ml-4 flex items-center justify-center">
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/explore-ss.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Account -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <div
+        class="flex mt-8 flex-col-reverse md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Left side of the Section -->
+        <div
+          class="mt-16 ml-4 flex items-center justify-center md:ml-0 md:items-start md:justify-start"
+        >
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/account.png"
+            alt=""
+          />
+        </div>
+
+        <!-- Right side of the Section -->
+        <div class="md:mt-12 flex flex-col md:items-start flex-[.5] lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">Accounts</h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[80%]">
+            All in one section to get an overview of the account related
+            options.
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Account details and options</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>3D Animated Avatars</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Language change option</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Links for custom pages created by Admin</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: => Address Management -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <div
+        class="flex mt-8 flex-col md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Left side of the section -->
+        <div class="md:mt-12 lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">
+            Address Management
+          </h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[60%]">
+            Multiple addresses can be saved in a single account and can be
+            switched with a single tap.
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Manage multiple addresses</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Option to delete address</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Quickly toggle between addresses</p>
+          </div>
+        </div>
+
+        <!-- Right Side of the Section -->
+        <div class="mt-16 ml-4 flex items-center justify-center">
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/adress-ss.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Wallet Transactions -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <div
+        class="flex mt-8 flex-col-reverse md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Left side of the Section -->
+        <div
+          class="mt-16 ml-4 flex items-center justify-center md:ml-0 md:items-start md:justify-start"
+        >
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/wallet.png"
+            alt=""
+          />
+        </div>
+
+        <!-- Right side of the Section -->
+        <div class="md:mt-12 flex flex-col md:items-start flex-[.5] lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">
+            Wallet Transactions
+          </h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[80%]">
+            Detailed wallet transactions details and refund details of orders.
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Wallet transactions details</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Deposit/Withdraw details of orders</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Deposit/Withdraw details from Admin</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: => We are Global -->
+    <section
+      class="relative h-[100vh] mt-16 bg-cover bg-center 2xl:h-[80vh]"
+      style="background-image: url('images/world.svg')"
+    >
+      <div class="absolute inset-0 bg-[#0a2540] opacity-80"></div>
+      <div
+        class="absolute flex items-center justify-center flex-col lg:items-start lg:justify-start lg:left-[5%] xl:ml-16 2xl:ml-32"
+      >
+        <h1
+          class="text-5xl text-[#ffffff] font-extrabold text-col text-center mt-16"
+        >
+          We Are Global
+        </h1>
+        <p class="text-[#fff] w-[95%] mt-8 lg:w-[50%] text-start">
+          Foodomaa® is being used by 13,000 business all over the globe. From a
+          small startup to a mid-size company, all rely on Foodomaa® for their
+          online business.
+        </p>
+
+        <div
+          class="w-[90%] bg-[#fff] h-[80px] mt-8 rounded flex items-center justify-start lg:w-[40%] lg:justify-around 2xl:h-[90px]"
+        >
+          <div class="bg-[#f25767] w-[50px] h-[50px] rounded-full ml-4"></div>
+          <p class="ml-4">
+            Kiran Kumar and <span class="font-bold">1,200</span> others
+          </p>
+          <p class="px-4 py-2 bg-[#eaecf3] hidden lg:block">India</p>
+        </div>
+
+        <div
+          class="w-[90%] bg-[#fff] h-[80px] mt-2 rounded flex items-center justify-start lg:w-[40%] lg:justify-around"
+        >
+          <div class="bg-[#f25767] w-[50px] h-[50px] rounded-full ml-4"></div>
+          <p class="ml-4">
+            Lucas Sousa and <span class="font-bold">1,500</span> others
+          </p>
+          <p class="px-4 py-2 bg-[#eaecf3] hidden lg:block">India</p>
+        </div>
+
+        <div
+          class="w-[90%] bg-[#fff] h-[80px] mt-2 rounded flex items-center justify-start lg:w-[40%] lg:justify-around"
+        >
+          <div class="bg-[#f25767] w-[50px] h-[50px] rounded-full ml-4">
+            <img class="rounded-full" src="images/Ryan Kalley.png" alt="" />
+          </div>
+          <p class="ml-4">
+            Ryan Kelley and <span class="font-bold">900</span> others
+          </p>
+          <p class="px-4 py-2 bg-[#eaecf3] hidden lg:block">India</p>
+        </div>
+
+        <div
+          class="w-[90%] bg-[#fff] h-[80px] mt-2 rounded flex items-center justify-start lg:w-[40%] lg:justify-around"
+        >
+          <div class="bg-[#f25767] w-[50px] h-[50px] rounded-full ml-4">
+            <img class="rounded-full" src="images/Bipin Pokharel.png" alt="" />
+          </div>
+          <p class="ml-4">
+            Bipin Pokharel <span class="font-bold">1,000</span> others
+          </p>
+          <p class="px-4 py-2 bg-[#eaecf3] hidden lg:block">India</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: => Address Management -->
+    <section
+      class="w-[100] mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56"
+    >
+      <div
+        class="flex mt-8 flex-col md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Left side of the section -->
+        <div class="md:mt-12 lg:mt-12">
+          <h1 class="text-3xl text-[#152c5b] text-bold text-col">
+            High Performance with PWA
+          </h1>
+          <p class="text-[#8e969e] w-[95%] mt-8 lg:w-[60%]">
+            No other products can come close to the speed and performance of
+            Foodomaa®
+          </p>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Perfect for modern startups</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Ready to be customized</p>
+          </div>
+          <div class="flex items-center gap-2 mt-8">
+            <i class="fa-solid fa-check text-[#4bd18b]"></i>
+            <p>Designed for every devices</p>
+          </div>
+        </div>
+
+        <!-- Right Side of the Section -->
+        <div class="mt-16 ml-4 flex items-center justify-center">
+          <img
+            class="shadow-2xl lg:w-[70%] lg:mr-2 2xl:mr-2"
+            src="images/adress-ss.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: => Payment Gateways -->
+    <section
+      class="w-[100] mt-12 mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mb-0 lg:mr-8 lg:ml-8 lg:mt-16 xl:mr-32 xl:ml-32 xl:mt-16 2xl:ml-56 2xl:mr-56 2xl:mt-32"
+    >
+      <h1 class="text-5xl text-center text-[#243d6d] font-bold">
+        Payment Gateways
+      </h1>
+      <p class="text-[#1f3360] font-normal text-center mt-4">
+        Hundreds of hour of hard work <br />
+        to bring you the Payment Gateways from all around the world.
+      </p>
+
+      <div
+        class="w-[100%] gap-8 flex flex-col justify-center itmes-center md:flex-row md:flex-wrap md:mt-16"
+      >
+        <div
+          class="w-[100%] border border-[#d4dce4] flex items-center md:w-[48%] lg:w-[30%]"
+        >
+          <div class="w-[20%] ml-4">
+            <img src="images/razorpay.png" alt="" />
+          </div>
+          <div>
+            <p>Razorpay</p>
+            <p>For India</p>
+          </div>
+        </div>
+
+        <div
+          class="w-[100%] h-[12vh] border border-[#d4dce4] flex items-center md:w-[48%] lg:w-[30%]"
+        >
+          <div class="w-[20%]">
+            <img src="" alt="" />
+          </div>
+          <div>
+            <p>Paytm</p>
+            <p>For India</p>
+          </div>
+        </div>
+
+        <div
+          class="w-[100%] h-[12vh] border border-[#d4dce4] flex items-center md:w-[48%] lg:w-[30%]"
+        >
+          <div class="w-[20%]">
+            <img src="" alt="" />
+          </div>
+          <div>
+            <p>Stripe iDEAL</p>
+            <p>For Netherlands</p>
+          </div>
+        </div>
+
+        <div
+          class="w-[100%] h-[12vh] border border-[#d4dce4] flex items-center md:w-[48%] lg:w-[30%]"
+        >
+          <div class="w-[20%]">
+            <img src="" alt="" />
+          </div>
+          <div>
+            <p>Stripe FPX</p>
+            <p>For Malaysia</p>
+          </div>
+        </div>
+
+        <div
+          class="w-[100%] h-[12vh] border border-[#d4dce4] flex items-center md:w-[48%] lg:w-[30%]"
+        >
+          <div class="w-[20%]">
+            <img src="" alt="" />
+          </div>
+          <div>
+            <p>MercadoPago</p>
+            <p>For Brazil</p>
+          </div>
+        </div>
+
+        <div
+          class="w-[100%] h-[12vh] border border-[#d4dce4] flex items-center md:w-[48%] lg:w-[30%]"
+        >
+          <div class="w-[20%]">
+            <img src="" alt="" />
+          </div>
+          <div>
+            <p>PayStack</p>
+            <p>For Africa</p>
+          </div>
+        </div>
+
+        <div
+          class="w-[100%] h-[12vh] border border-[#d4dce4] flex items-center md:w-[48%] lg:w-[30%]"
+        >
+          <div class="w-[20%]">
+            <img src="" alt="" />
+          </div>
+          <div>
+            <p>PayMongo</p>
+            <p>For Philippines</p>
+          </div>
+        </div>
+
+        <div
+          class="w-[100%] h-[12vh] border border-[#d4dce4] flex items-center md:w-[48%] lg:w-[30%]"
+        >
+          <div class="w-[20%]">
+            <img src="" alt="" />
+          </div>
+          <div>
+            <p>PayPal</p>
+            <p>For USA & supported countries</p>
+          </div>
+        </div>
+
+        <div
+          class="w-[100%] h-[12vh] border border-[#d4dce4] flex items-center md:w-[48%] lg:w-[30%]"
+        >
+          <div class="w-[20%]">
+            <img src="" alt="" />
+          </div>
+          <div>
+            <p>Stripe 3D Secure with SCA</p>
+            <p>For USA & supported countries</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: => Footer -->
+    <footer class="w-[100] mt-12 mx-4 ml-4 mr-4 sm:mr-8 sm:ml-8 md:mr-8 md:ml-8 lg:mt-2 lg:mb-0 lg:mr-8 lg:ml-8 xl:mr-32 xl:ml-32 2xl:ml-56 2xl:mr-56">
+      <div class="flex items-center justify-center flex-col mt-16">
+        <h1 class="text-[#334771]">Do you wish to know more?</h1>
+        <div class="flex mt-4 gap-2 sm:gap-4">
+          <button class="lg:block border border-solid border-[#fc6337] px-6 py-3 rounded text-[#fc6337] ease-in duration-300 hover:bg-[#fc6337] hover:text-white">
+            Purchase Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <button class="bg-[#fc5525] hover:bg-[#fc3c0d] px-6 py-3 text-extrabold text-white rounded">
+            Get More Details
+          </button>
+        </div>
+        <div class="h-[1px] w-1/2 bg-[#a2acbe] mt-16"></div>
+      </div>
+      
+      <div class="flex justify-between items-center flex-col mt-8 h-[40vh] md:flex-row md:h-[30vh]">
+        <div class="md:flex-[0.5]">
+          <p class="text-[#6a6c6e] text-center md:text-start">© 2021 StackCanyon Technologies LLP. All rights reserved</p>
+          <p class="text-[#6a6c6e] text-xs mt-2">#45, SY No. 120/4, KNo. 512/712/690/120/4/4, Bangalore KA 560102 IN</p>
+          <p class="text-xs text-[#6a6c6e] mt-2">Contact: <a class="text-red-500 hover:text-[#334771]" href="https://support.stackcanyon.com">https://support.stackcanyon.com</a></p>
+          <div class="mt-2">
+            <i class="fa-light fa-mobile text-[#334771]"></i>
+            <i class="fa-light fa-mobile text-[#334771] ml-2"></i>
+            <i class="fa-light fa-mobile text-[#334771] ml-2"></i>
+          </div>
+        </div>
+
+        <div class="mt-4 mb-16 md:flex-[0.5] lg:mb-8">
+          <ul class="flex items-center justify-end">
+            <a class="text-[#6a6c6e]" href="">About</a>
+            <a class="text-[#6a6c6e] ml-4 lg:ml-8" href="">Refund</a>
+            <a class="text-[#6a6c6e] ml-4 lg:ml-8" href="">Privacy</a>
+            <a class="text-[#6a6c6e] ml-4 lg:ml-8" href="">Terms</a>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
